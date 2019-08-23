@@ -6,7 +6,13 @@ export default function ContactForm() {
         <h2>Contato</h2>
       </header>
       <div className="content">
-        <form>
+        <form
+          name="contact"
+          action="/contactSuccess/"
+          method="post"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="fields">
             <div className="field half">
               <input type="text" name="name" id="name" placeholder="Nome" />

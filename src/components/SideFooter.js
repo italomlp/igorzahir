@@ -18,19 +18,19 @@ export default function SideFooter() {
         )}
         {config.address && (
           <li>
-            <h3>Address</h3>
+            <h3>Endereço</h3>
             <span>{config.address}</span>
           </li>
         )}
 
         <li>
-          <h3>Elsewhere</h3>
+          <h3>Follow</h3>
           <ul className="icons">
             {config.socialLinks.map(social => {
               const { icon, name, url } = social;
               return (
                 <li key={url}>
-                  <a href={url} className={`icon ${icon}`}>
+                  <a href={url} target="blank" className={`icon ${icon}`}>
                     <span className="label">{name}</span>
                   </a>
                 </li>

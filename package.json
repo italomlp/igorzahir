@@ -1,14 +1,15 @@
 {
-  "name": "gatsby-starter-paradigmshift",
+  "name": "igorzahir",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP",
+  "description": "Personal site and portfolio for Igor Zahir",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift.git"
+    "url": "git+https://github.com/italomlp/igorzahir.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Italo Menezes",
+    "email": "italomlporoca@hotmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
@@ -44,8 +45,5 @@
     "gatsby-starter-paradigmshift"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift#readme"
+  "homepage": "https://www.igorzahir.com"
 }

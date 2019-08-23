@@ -77,10 +77,7 @@ class Gallery extends Component {
         {this.renderGallery()}
         <Lightbox
           currentImage={this.state.currentImage}
-          images={this.props.images.map(img => {
-            img.caption = `${img.title} - ${img.desc}`;
-            return img;
-          })}
+          images={this.props.images}
           isOpen={this.state.lightboxIsOpen}
           onClickImage={this.handleClickImage}
           onClickNext={this.gotoNext}

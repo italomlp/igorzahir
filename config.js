@@ -1,34 +1,23 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Paradigmshift', // <title>
-  manifestName: 'paradigmshift',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Igor Zahir', // <title>
+  manifestName: 'igorzahir',
+  manifestShortName: 'Igor', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#49fcd4',
+  manifestThemeColor: '#49fcd4',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Igor Zahir',
+  subHeading: 'Art advising, curadoria e projetos especiais',
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/igorzahir',
     },
   ],
-  emailId: 'anubhav.srivastava00@gmail.com',
-  phone: '020182389123',
-  address: '11 Ashiyana, Mumbai, India',
+  emailId: 'contato@igorzahir.com',
+  address: 'São Paulo, SP - Brasil',
 };

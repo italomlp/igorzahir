@@ -6,7 +6,9 @@ export default function Header() {
   return (
     <header>
       <h1>{config.heading}</h1>
-      <p>{config.subHeading}</p>
+      <p style={{ textTransform: 'lowercase', fontSize: '18px' }}>
+        {config.subHeading}
+      </p>
       <ul className="actions">
         <li>
           <Scroll type="id" element="first">

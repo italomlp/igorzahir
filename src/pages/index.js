@@ -77,7 +77,7 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Aulas e cursos</h2>
+          <h2>Aulas e palestras</h2>
         </header>
         <div className="content">
           <p>

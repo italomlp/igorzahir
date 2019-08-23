@@ -12,37 +12,37 @@ import ContactForm from '../components/ContactForm';
 
 const img_set_1 = [
   {
-    src: require('../assets/images/gallery/01.jpg'),
-    thumbnail: require('../assets/images/gallery/01.jpg'),
+    src: require('../assets/images/gallery/fulls/01.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/01.jpg'),
     full: true,
   },
   {
-    src: require('../assets/images/gallery/02.jpg'),
-    thumbnail: require('../assets/images/gallery/02.jpg'),
+    src: require('../assets/images/gallery/fulls/02.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/02.jpg'),
   },
   {
-    src: require('../assets/images/gallery/03.jpg'),
-    thumbnail: require('../assets/images/gallery/03.jpg'),
+    src: require('../assets/images/gallery/fulls/03.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/03.jpg'),
   },
   {
-    src: require('../assets/images/gallery/04.jpg'),
-    thumbnail: require('../assets/images/gallery/04.jpg'),
+    src: require('../assets/images/gallery/fulls/04.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/04.jpg'),
     full: true,
   },
 ];
 const img_set_2 = [
   {
-    src: require('../assets/images/gallery/05.jpg'),
-    thumbnail: require('../assets/images/gallery/05.jpg'),
+    src: require('../assets/images/gallery/fulls/05.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/05.jpg'),
     full: true,
   },
   {
-    src: require('../assets/images/gallery/06.jpg'),
-    thumbnail: require('../assets/images/gallery/06.jpg'),
+    src: require('../assets/images/gallery/fulls/06.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/06.jpg'),
   },
   {
-    src: require('../assets/images/gallery/07.jpg'),
-    thumbnail: require('../assets/images/gallery/07.jpg'),
+    src: require('../assets/images/gallery/fulls/07.jpg'),
+    thumbnail: require('../assets/images/gallery/thumbs/07.jpg'),
   },
 ];
 

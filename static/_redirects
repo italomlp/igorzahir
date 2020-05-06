@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://igorzahir.netlify.com/* https://www.igorzahir.com/:splat 301!
